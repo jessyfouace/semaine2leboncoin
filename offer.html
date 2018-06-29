@@ -84,21 +84,24 @@
           <input type="submit" value="Rechercher"/>
         </div>
         <div class="botmiddlesearch">
+          <div class="boxsearch">
+            <ul>
+            <li><input class="titleuniqq" type="checkbox" value="titleuniq">
+            <label for="titleuniq">Recherche dans le titre uniquement</label></input></li>
 
-          <input type="checkbox" value="titleuniq"/>
-          <label for="titleuniq">Recherche dans le titre uniquement</label>
-
-          <input type="checkbox" value="*uniq"/>
-          <label for="*uniq">Annonce * Urgentes uniquement</label>
-
-          <select id="categories">
+            <li><input class="uniq" type="checkbox" value="*uniq">
+            <label for="*uniq">Annonce * Urgentes uniquement</label></input></li>
+          </ul>
+          </div>
+          <select id="regionn">
             <option>Toutes la France</option>
             <option>Nord-Pas-De-Calais</option>
             <option>Picardie</option>
             <option>Ile-De-France</option>
           </select>
-
-          <input type="text" placeholder="Ville ou code postal"/>
+          <div class="cp">
+            <input type="text" placeholder="Ville ou code postal"/>
+          </div>
         </div>
       </div>
       <!-- END OF FIRST DIV -->
@@ -121,12 +124,15 @@
           <input class="profonly" type="button" value="Professionnels"/>
         </div>
         <div class="objetmiddle">
-          <select id="categories">
+          <div class="selecttri">
+          <select id="categoriess">
             <option>Tri: Plus récentes</option>
             <option>Tri: Plus anciennes</option>
             <option>Tri: Prix Croisant</option>
             <option>Tri: Prix Décroissant</option>
           </select>
+        </div>
+          <div class="testmiddle">
           <div class="firstshop">
             <img class ="picture" src="img/voiture.png" alt="image d'une voiture bleu" width="50px">
             <div class="textshop1">
@@ -151,7 +157,9 @@
               <p id="datev">Aujourd'hui, 15:51</p>
             </div>
           </div>
+        </div>
       </div>
+    </div>
         <div class="slide">
           <img class="leftslide" src="img/leftslide.png"/>
           <input class="pagenumber" type="text" value="1"/>
@@ -160,7 +168,6 @@
           </div>
           <img class="rightslide" src="img/rightslide.png"/>
         </div>
-    </div>
     </secion>
 
     <!-- ###############################################################

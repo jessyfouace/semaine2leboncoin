@@ -442,6 +442,14 @@ textarea {
       width: 100%;
       text-align: center;
     }
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
+    /* ######################## OFFER ZONE ################## */
 
     .announce {
       margin-top: 18%;
@@ -506,9 +514,8 @@ textarea {
     }
 
     .allmiddleoffer {
-      margin: auto;
-      width: 100%;
-      text-align: center;
+      width: 90%;
+      margin-left: 10%;
     }
 
     .firstshop {
@@ -541,9 +548,22 @@ textarea {
       font-size: 13px;
     }
 
-    .objetmiddle {
-      width: 87%;
+    #categories {
+      border: 1px solid #4183d7;
+      background-color: inherit;
+      border-radius: 4px;
+      width: 90%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 8px;
+      color: #4183d7;
+      font-size: 12px;
       margin: auto;
+      display: block;
+    }
+
+    .objetmiddle {
+      width: 89%;
       border-left: 1px solid #cccccc;
       border-right: 1px solid #cccccc;
     }
@@ -584,6 +604,7 @@ textarea {
 
     .slide {
       display: inline-block;
+      text-align: center;
     }
 
     .pagenumber {
@@ -601,6 +622,13 @@ textarea {
       background-color: #fafafa;
     }
 
+    /* ######################## DEPOSE ZONE ################## */
+    /* ######################## DEPOSE ZONE ################## */
+    /* ######################## DEPOSE ZONE ################## */
+    /* ######################## DEPOSE ZONE ################## */
+    /* ######################## DEPOSE ZONE ################## */
+    /* ######################## DEPOSE ZONE ################## */
+
 
 
 }
@@ -616,6 +644,8 @@ textarea {
   * {
     text-decoration: none;
   }
+    .topmiddlesearch,
+    .botmiddlesearch,
     .navls,
     .connexiion,
     .middlelist,
@@ -764,8 +794,166 @@ textarea {
       text-align: center;
     }
 
+    /* ###############################################################
+      ######################OFFER ZONE ###############################
+      ################################################################*/
 
+      .announce {
+        margin-top: 100px;
+      }
+      .announce p {
+        font-size: 18px;
+        color:#808080;
+        font-family: arial, sans-serif;
+        padding-left: 10%;
+      }
 
+      .allshow {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: none;
+        background-color: white;
+        color: #f56b2a;
+        width: 25%;
+        padding: 5% 3% 5% 3%;
+        font-size: 13px;
+      }
+
+      .allguys {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        background-color: #e6e6e6;
+        color: black;
+        width: 25%;
+        padding: 5% 3% 5% 3%;
+        font-size: 13px;
+        margin-left: -2%;
+      }
+
+      .allguys:hover {
+        border-bottom: none;
+        background-color: white;
+        cursor:pointer;
+        color: #f56b2a;
+      }
+
+      .profonly {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        background-color: #e6e6e6;
+        color: black;
+        width: 25%;
+        padding: 5% 3% 5% 3%;
+        font-size: 13px;
+        margin-left: -2%;
+      }
+
+      .profonly:hover {
+        border-bottom: none;
+        background-color: white;
+        cursor:pointer;
+        color: #f56b2a;
+      }
+
+      .allmiddleoffer {
+        width: 90%;
+        margin-left: 10%;
+      }
+
+      .firstshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop1 {
+        display: inline-block;
+        text-align: left;
+      }
+
+      #namev {
+        color: #466699;
+        font-size: 15px;
+      }
+
+      #pricev {
+        color: #f56b2a;
+        font-size: 13px;
+      }
+
+      #datev {
+        font-size: 13px;
+      }
+
+      .objetmiddle {
+        width: 89%;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+      }
+
+      .secondshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture2 {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop2 {
+        display: inline-block;
+        margin-left: 2%;
+        text-align: left;
+      }
+
+      .treeshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture3 {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop3 {
+        display: inline-block;
+        margin-left: 2%;
+        text-align: left;
+      }
+
+      .slide {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .pagenumber {
+        width: 10%;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .numberpage {
+        width: 28%;
+        display: inline-block;
+      }
+
+      body {
+        background-color: #fafafa;
+      }
 }
 
 /*######################################################################*/
@@ -1185,6 +1373,255 @@ textarea {
       }
 
       .facetwit {
+        display: inline-block;
+      }
+
+      .topmiddlesearch {
+        margin-left: 10%;
+        padding-top: 50px;
+      }
+
+      .botmiddlesearch {
+        padding-left: 10%;
+        padding-bottom: 10px;
+      }
+
+      .firstlinetopmiddle {
+        background-color: #e6e6e6;
+        margin-top: -4%;
+      }
+
+
+      .boxsearch {
+        display: inline-block;
+        width: 26%;
+        font-size: 13px;
+        margin-left: -3%;
+      }
+
+      .boxsearch li {
+        list-style-type: none;
+      }
+
+      .whatsearch {
+        width: 37%;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 3px;
+      }
+
+      .titleuniqq {
+        display: inline-block;
+      }
+
+      .uniq {
+        display: inline-block;
+      }
+
+      #regionn,
+      #categories {
+        vertical-align: top;
+        background-color: white;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        width: 15%;
+        padding: 5px;
+      }
+
+      .cp {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 1%;
+      }
+
+      .cp input {
+        border-radius: 3px;
+        border: 1px solid #cccccc;
+        padding: 6px;
+      }
+
+      #categories {
+        width: 21%;
+      }
+
+      #categoriess {
+          border: 1px solid #4183d7;
+          background-color: inherit;
+          border-radius: 4px;
+          width: 90%;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          padding-left: 8px;
+          color: #4183d7;
+          font-size: 12px;
+          margin: auto;
+          display: block;
+      }
+
+      #regionn {
+        margin-top: 1%;
+      }
+
+      .topmiddlesearch input[type=submit] {
+        background-color: #4183d7;
+        border: none;
+        border-radius: 3px;
+        width: 20%;
+        height: 35px;
+        margin-left: 3%;
+        color: white;
+      }
+
+      .announce {
+        margin-top: 100px;
+      }
+      .announce p {
+        font-size: 18px;
+        color:#808080;
+        font-family: arial, sans-serif;
+        padding-left: 10%;
+      }
+
+      .allshow {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: none;
+        background-color: white;
+        color: #f56b2a;
+        width: 15%;
+        padding: 2%;
+        font-size: 13px;
+      }
+
+      .allguys {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        background-color: #e6e6e6;
+        color: black;
+        width: 25%;
+        padding: 2%;
+        font-size: 13px;
+        margin-left: -2%;
+      }
+
+      .allguys:hover {
+        border-bottom: none;
+        background-color: white;
+        cursor:pointer;
+        color: #f56b2a;
+      }
+
+      .profonly {
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        background-color: #e6e6e6;
+        color: black;
+        width: 25%;
+        padding: 2%;
+        font-size: 13px;
+        margin-left: -2%;
+      }
+
+      .profonly:hover {
+        border-bottom: none;
+        background-color: white;
+        cursor:pointer;
+        color: #f56b2a;
+      }
+
+      .allmiddleoffer {
+        width: 90%;
+        margin-left: 10%;
+      }
+
+      .firstshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop1 {
+        display: inline-block;
+        text-align: left;
+      }
+
+      #namev {
+        color: #466699;
+        font-size: 15px;
+      }
+
+      #pricev {
+        color: #f56b2a;
+        font-size: 13px;
+      }
+
+      #datev {
+        font-size: 13px;
+      }
+
+      .objetmiddle {
+        width: 89%;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+      }
+
+      .secondshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture2 {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop2 {
+        display: inline-block;
+        margin-left: 2%;
+        text-align: left;
+      }
+
+      .treeshop {
+          border-bottom: 1px solid #cccccc;
+          margin-bottom: 2%;
+          text-align: left;
+      }
+
+      .picture3 {
+        display: inline-block;
+        vertical-align: inherit;
+      }
+
+      .textshop3 {
+        display: inline-block;
+        margin-left: 2%;
+        text-align: left;
+      }
+
+      .slide {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .pagenumber {
+        width: 10%;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .numberpage {
+        width: 28%;
         display: inline-block;
       }
 
