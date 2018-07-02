@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Dépots d'annonce</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
 <body>
@@ -22,7 +23,6 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
@@ -35,6 +35,232 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+  <!-- ###############################################################
+  ########################################################################
+  ##################### START OF HEADER PAGE ################################
+  ########################################################################
+        ############################################################## !-->
+
+  <header>
+    <div class="top">
+        <!-- navigate menu -->
+          <img class="navigate" src="img/phonemenu.png"/>
+        <!-- Logo LBC -->
+        <div class="imagetest">
+        <a href="index.html"><img class="imagelbc" src="img/leboncoin.png" width="200px" alt="image marquer leboncoin"/></a>
+        </div>
+        <!-- list for top navigation -->
+      <div class="navls">
+        <ul>
+          <a href="da.html"><li>DEPOSER UNE ANNONCE</li></a>
+          <a href="offer.html"><li>OFFRES</li></a>
+          <a href="index.html"><li>DEMANDES</li></a>
+          <a href="index.html"><li>MES FAVORIS</li></a>
+          <a href="index.html"><li>BOUTIQUE</li></a>
+          <a href="index.html"><li>MESSAGES</li></a>
+        </ul>
+      </div>
+      <!-- Connexion button -->
+        <a href="index.html"><input class="connexiion" type="button" value="Se Connecter"/></a>
+      <!-- END OF ALL DIV OF TOP -->
+    </div>
+  </header>
+
+  <!-- ###############################################################
+  ########################################################################
+  ##################### START OF FOOTER ZONE PAGE ################################
+  ########################################################################
+        ############################################################## !-->
+
+<section>
+  <h1>Déposer une annonce</h1>
+  <h2>Votre Annonce</h2>
+  <div class="yourannounce">
+    <div class="widthallannounce">
+      <label for="choosecategories">Catégorie*:</label>
+      <select id="stylebox">
+        <option selected="choosecategories">Choisissez une catégorie</option>
+        <option>Offre d'emplois</option>
+        <option>Voiture</option>
+        <option>Moto</option>
+      </select>
+      <div class="yourjobb">
+        <label for="yourjob">Vous êtes un *</label>
+          <input type="checkbox" class="yourjob" checked>Particuliers</input>
+          <input type="checkbox" class="yourjob">Professionnels</input>
+      </div>
+      <p id="condition">Si vous agissez à titre professionnel, vous devez créer un Compte professionnel. A défaut, en application de l’article L 132-2 du Code de la consommation qui sanctionne les pratiques commerciales trompeuses, vous encourez notamment une peine d’emprisonnement de 2 ans et une amende de 300 000 euros. Pour plus d'informations, consultez vos droits et obligations.</p>
+      <div class="typeofannounce">
+        <label for="typeannounce">Type d'annonce *</label>
+          <input type="checkbox" class="typeannounce" checked>Offres</input>
+          <input type="checkbox" class="typeannounce">Demandes</input>
+      </div>
+      <div class="titleann">
+        <label for="titleannounce">Titre de l'annonce:</label>
+        <input type="text" class="titleannounce">
+      </div>
+      <div class="textann">
+        <label for="textannounce">Texte de l'annonce:</label>
+        <input type="text" class="textannounce">
+      </div>
+      <div class="priceann">
+        <label for="priceannounce">Prix:</label>
+        <input type="text" class="textannounce" value="€">
+      </div>
+      <p id="sizepara"><span id="majtitle">Photos:</span> Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
+      <div class="photo">
+        <img src="img/deposephoto1.png" alt="Déposez une photo"/>
+        <img src="img/deposephoto2.png" alt="Déposez une photo"/>
+        <img src="img/deposephoto3.png" alt="Déposez une photo"/>
+        <img class="disablephone" width="80%" src="img/deposephoto4.png" alt="Déposez une photo"/>
+      </div>
+    </div>
+  </div>
+
+  <h2>Votre Annonce</h2>
+  <div class="localisation">
+    <div class="widthallannounce">
+      <div class="allannouncefortablette">
+      <label for="city">Ville ou Code postal*</label>
+        <input class ="city" type="text"/>
+      <div class="streetdiv">
+      <label for="street">Adresse *</label>
+        <input class ="street" type="text"/>
+      </div>
+      <div class="validatenamediv">
+        <input class="validatename" type="submit" value="Valider mon adresse"/>
+      </div>
+      <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+          Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+      </div>
+        <img src="img/cartefrance.png" width="100%"/>
+    </div>
+    <div class="mapdiv">
+      <img src="img/cartefrance.png" width="100%"/>
+    </div>
+  </div>
+
+  <h2>Vos Informations</h2>
+  <div class="localisation">
+    <div class="widthallannounce">
+      <label for="city">Pseudo *</label>
+        <input class ="city" type="text"/>
+      <label for="street">Email *</label>
+        <input class ="street" type="text"/>
+      <label for="street">Téléphone *</label>
+        <input class ="street" type="text"/>
+      <input class="numberhide" type="checkbox"/>
+      <label for="numberhide">Marquer le numéro de téléphone dans l'annonce.</label>
+      <div class="othercompanydiv">
+        <input class="othercompany" type="checkbox" checked/>
+        <label for="othercompany">Je ne souhaite pas être solicité par des sociétés étrangères au site leboncoin.fr.</label>
+      </div>
+    </div>
+  </div>
+  <div class="footermiddleda">
+    <p>Champ obligatoires *</p>
+    <input class="allvalidateda" type="submit" value="Valider"/>
+  </div>
+</section>
+
+  <!-- ###############################################################
+  ########################################################################
+  ##################### START OF FOOTER ZONE PAGE ################################
+  ########################################################################
+        ############################################################## !-->
+
+  <footer>
+    <div class="allfooter">
+      <!-- Information footer -->
+      <div class="firstlinefooter">
+
+        <div class="firstdivfooter">
+          <ul>
+            <li id="titlefooter">A PROPOS DU BONCOIN</li>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Qui sommes-nous?</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Nous rejoindre</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Impact environnemental</li></a>
+          </ul>
+          <ul>
+            <li id="titlefooter">NOS APPLICATIONS</li>
+          </ul>
+          <div class="appleandroid">
+            <a href="https://www.leboncoin.fr" target="_blank"><img src="img/appstore.png" alt="image cliquable pour rejoindre l'appstore" width="110px"/></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><img src="img/googleplay.png" alt="image cliquable pour rejoindre le googleplay" width="110px"/></a>
+          </div>
+        </div>
+
+        <div class="seconddivfooter">
+          <ul>
+            <a href="https://www.leboncoin.fr" target="_blank"><li id="titlefooter">INFORMATIONS LEGALES</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Conditions générales d'utilisation</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Règles de diffusion</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Condition Générales de vente</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Vie privée et cookies</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Vos droits et obligations</li></a>
+          </ul>
+        </div>
+
+        <div class="thirddivfooter">
+          <ul>
+            <li id="titlefooter">PROFESSIONNELS</li>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Publicité</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Professionnels de l'immobilier</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Vos recrutements</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Toutes nos solutions pros</li></a>
+          </ul>
+        </div>
+
+        <div class="forthdivfooter">
+          <ul>
+            <li id="titlefooter">DES QUESTIONS ?</li>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Aide</li></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><li>Nous contacter</li></a>
+          </ul>
+          <ul>
+            <li id="titlefooter">VOUS ÊTES A L'ETRANGER?</li>
+          </ul>
+          <select id="country">
+            <option>France</option>
+            <option>Angleterre</option>
+            <option>Espagne</option>
+            <option>Amérique</option>
+            <option>Italie</option>
+            <option>Autriche</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Patner -->
+      <div class="secondlinefooter">
+        <ul>
+          <li id="partnertitle">Partenaires:</li>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>Younited Credit-</li></a>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>Leboncoin Emploi Cadres-</li></a>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>Agriaffaires-</li></a>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>MachineryZone-</li></a>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>LeDénicheur-</li></a>
+          <a href="https://www.leboncoin.fr" target="_blank"><li>AVendreALouer</li></a>
+      </div>
+
+      <!-- Copyright + Pub line -->
+      <div class="treelinefooter">
+        <div class="firstpartoflinefooter">
+          <p>leboncoin 2006 - 2018</p>
+        </div>
+        <div class="secondpartoflinefooter">
+          <p>Retrouvez nous sur :</p>
+          <div class="facetwit">
+            <a href="https://www.leboncoin.fr" target="_blank"><img src="img/facebook.png" width="35px" alt="image cliquable pour rejoindre la page facebook"/></a>
+            <a href="https://www.leboncoin.fr" target="_blank"><img src="img/twitter.png" width="35px" alt="image cliquable pour rejoindre la page twitter"/></a>
+          </div>
+        </div>
+      </div>
+    <!-- END OF DIV OF ALLFOOTER -->
+    </div>
+  </footer>
+
 </body>
 
 </html>

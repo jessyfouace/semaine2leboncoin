@@ -1626,3 +1626,229 @@ textarea {
       }
 
 }
+
+
+/*######################################################################*/
+/*######################################################################*/
+/*############################### Demande d'annonce ###############################*/
+/*######################################################################*/
+/*######################################################################*/
+
+
+/*######################################################################*/
+/*######################################################################*/
+/*############################### FOR ALL PLATFORM ###############################*/
+/*######################################################################*/
+/*######################################################################*/
+
+h1 {
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
+  color: #b09898;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 70px;
+}
+
+.yourannounce {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #cccccc;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+h2 {
+  background-color: #666666;
+  color: white;
+  border: 1px solid #cccccc;
+  width: 90%;
+  margin: auto;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.widthallannounce {
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.yourannounce label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#condition {
+  background-color: #ffeebf;
+}
+
+.yourjobb {
+  font-size: 13px;
+  width: 100%;
+}
+
+.typeofannounce {
+  font-size: 13px;
+  width: 100%;
+}
+
+#stylebox,
+.titleannounce,
+.textannounce,
+.priceannounce,
+.city,
+.street {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 3px;
+  width: 90%;
+}
+
+#stylebox {
+  width: 100%;
+}
+
+#majtitle {
+  font-weight: bold;
+}
+
+#sizepara {
+  font-size: 12px;
+}
+
+.localisation {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #cccccc;
+  margin-bottom: 5%;
+}
+
+.localisation img {
+  border: 1px solid #cccccc;
+  margin-bottom: 2%;
+}
+
+.localisation label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.localisation label[for="othercompany"],
+.localisation label[for="numberhide"] {
+  font-size: 15px;
+  font-weight: normal;
+  width: 10%;
+  display: inline;
+}
+
+.localisation input[type="checkbox"] {
+  display: inline;
+}
+
+.localisation input[class="city"],
+.localisation input[class="street"] {
+  display: block;
+}
+
+.footermiddleda {
+  width: 90%;
+  margin: auto;
+}
+
+.footermiddleda p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.footermiddleda input {
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 4px;
+  border: none;
+  background-color: #4183d7;
+  width: 100%;
+  height: 35px;
+  color: white;
+}
+
+.widthallannounce p {
+  background-color: #d9e6f7;
+}
+
+.validatename {
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 4px;
+  border: none;
+  background-color: #f9b493;
+  width: 100%;
+  height: 35px;
+  color: white;
+  margin-top: 5%;
+}
+
+ @media screen and (min-width:768px) {
+
+      .widthallannounce img {
+        display: none;
+      }
+
+      .widthallannounce {
+        width: 50%;
+        margin-left: 0%;
+        display: inline-block;
+      }
+
+      #sizepara {
+        width: 540px;
+      }
+
+      .widthallannounce input[class="street"] {
+        width: 80%;
+      }
+
+      .streetdiv {
+        width: 49%;
+        display: inline-block;
+      }
+
+      .validatenamediv {
+        display: inline-block;
+        width: 49%;
+      }
+
+      .validatename {
+        width: 150px;
+        font-size: 13px;
+      }
+
+      .mapdiv {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 18px;
+        text-align: center;
+      }
+
+      .mapdiv img {
+        max-width: 300px;
+      }
+
+      .footermiddleda input{
+        width: 150px;
+      }
+
+ }
